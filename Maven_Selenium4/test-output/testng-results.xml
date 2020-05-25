@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16677" started-at="2020-05-03T21:00:41Z" finished-at="2020-05-03T21:00:57Z">
+  <suite name="Default suite" duration-ms="39115" started-at="2020-05-07T17:40:58Z" finished-at="2020-05-07T17:41:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16677" started-at="2020-05-03T21:00:41Z" finished-at="2020-05-03T21:00:57Z">
-      <class name="selenium4Feature.Reletive_Locator">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium4Feature.Reletive_Locator@3dd3bcd]" name="setUp" is-config="true" duration-ms="16560" started-at="2020-05-03T17:00:41Z" finished-at="2020-05-03T17:00:57Z">
+    <test name="Default test" duration-ms="39115" started-at="2020-05-07T17:40:58Z" finished-at="2020-05-07T17:41:37Z">
+      <class name="selenium4Feature.NewTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:selenium4Feature.NewTest@3dd3bcd]" name="setUp" is-config="true" duration-ms="38769" started-at="2020-05-07T13:40:58Z" finished-at="2020-05-07T13:41:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test1()[pri:0, instance:selenium4Feature.Reletive_Locator@3dd3bcd]" name="test1" duration-ms="61" started-at="2020-05-03T17:00:57Z" finished-at="2020-05-03T17:00:57Z">
+        <test-method status="FAIL" signature="Test1()[pri:0, instance:selenium4Feature.NewTest@3dd3bcd]" name="Test1" duration-ms="249" started-at="2020-05-07T13:41:37Z" description="Test Book 5 is left of book 6 &amp; below book 1" finished-at="2020-05-07T13:41:37Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at selenium4Feature.Reletive_Locator.test1(Reletive_Locator.java:32)
+	at selenium4Feature.NewTest.Test1(NewTest.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -45,12 +45,12 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:selenium4Feature.Reletive_Locator@3dd3bcd]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-05-03T17:00:57Z" finished-at="2020-05-03T17:00:57Z">
+        </test-method> <!-- Test1 -->
+        <test-method status="FAIL" signature="afterClass()[pri:0, instance:selenium4Feature.NewTest@3dd3bcd]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-07T13:41:37Z" finished-at="2020-05-07T13:41:37Z">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
-	at selenium4Feature.Reletive_Locator.tearDown(Reletive_Locator.java:42)
+	at selenium4Feature.NewTest.afterClass(NewTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -80,8 +80,8 @@
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- selenium4Feature.Reletive_Locator -->
+        </test-method> <!-- afterClass -->
+      </class> <!-- selenium4Feature.NewTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
